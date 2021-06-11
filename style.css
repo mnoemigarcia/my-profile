@@ -1,0 +1,119 @@
+body { 
+	background-color: #b2ddc0;
+	color-interpolation-filters: white ;
+	color: black ;
+	font-size: 15px; 
+	line-height: 1,5px;
+	font-family:'Odibee Sans', cursive;;
+	font-weight: 300;
+	letter-spacing: 4px; 
+	text-align: center;
+	text-align: justify-all;
+	margin: 50px;
+	padding: 20px;
+	border: 5px;
+}
+
+img { 
+	width: 1100px; 
+	margin: 25px;
+	padding: 5px;
+	border: 5px;
+}
+h1, h2 { 
+	font-family: tahoma;
+	font-family: 'Roboto';
+}
+
+h1 { 
+	color: #05763a ;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Odibee Sans', cursive;
+}
+
+h2,p { 
+	color: #05763a ; 
+}
+a,i { 
+	text-align: center;
+}
+a { 
+	text-decoration: none;
+	color: white;
+	text-shadow: rgb(110,110,100); 
+	font-weight: 300;
+}
+a:hover { 
+	color: #05763a; 
+}
+
+.card-green {
+	background-color:rgba(154,208,172,1);
+	padding:20px;
+	border:5px;
+	margin:50px;
+	box-shadow: 0px,10px,30px, rgba(0,0,0,1);
+	border-radius: 4px;
+}
+
+.img-circle {
+	border-radius: 10px;
+	box-shadow: 0px,10px,30px, rgba(0,0,0,1);
+}
+
+.btn-green {
+	background-color: rgba(154,208,172,1);
+	color: white;
+	padding: 7px 10px;
+	border-radius: 4px;
+}
+
+.list-line {
+	padding-left: 0px;
+}
+
+.list-line ul {
+	display: inline;
+	text-align: center;
+}
+
+.list-line i {
+	font-size:30px;
+	color:white;
+	text-align: center;
+	letter-spacing: 10px
+}
+
+.list-line i:hover {
+	color:grey;
+}
+
+@media (max-width: 960px) {
+  /*for a screen <960, this CSS will be read */
+	.container {
+		with: 700px;
+	}
+	img { 
+	width: 600px; 
+	}
+}
+
+@media (max-width: 720px) {
+	/*for a screen <720, this CSS will be read */
+	.container {
+		with: 500px;
+	}
+	img { 
+	width: 400px; 
+	}
+}
+	
+@media (max-width: 540px) {
+	/*for a screen <540, this CSS will be read */
+	.container {
+		with: 300px;
+	}
+	img { 
+	width: 300px; 
+	}
+}
